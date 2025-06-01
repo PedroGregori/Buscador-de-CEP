@@ -1,0 +1,105 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease;
+  min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+  max-width: 20.8vw;
+  margin-left: 37vw;
+  padding: 2vw;
+  padding-inline: 2vw;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background 0.3s;
+}
+
+body.dark .container {
+  background: rgba(30, 30, 30, 0.9);
+}
+
+.container h1 {
+  color: #686868;
+}
+
+body.dark .container h1 {
+  color: #eaeaea;
+}
+
+.search-box {
+  display: flex;
+  margin-left: 2vw;
+}
+
+/* Estilo do input */
+.input-box {
+  height: 1.3vw;
+  width: 11.5vw;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+body.dark .input-box {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Estilo dos botões */
+.search-button {
+  height: 45px;
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+body.dark button {
+  background: #0056b3;
+}
+
+body.dark button:hover {
+  background: #007bff;
+}
+
+/* Estilo da área de resultado */
+.result {
+  padding-inline: 2vw;
+  margin-top: 20px;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+body.dark .result {
+  color: #eaeaea;
+}
+
+/* Estilo das mensagens de erro */
+.error {
+  color: red;
+  margin-top: 10px;
+}
