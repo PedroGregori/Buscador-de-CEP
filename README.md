@@ -1,8 +1,5 @@
 # Buscador de CEP com Alternancia de Temas
 
-[Preview Light Theme](https://via.placeholder.com/400x200/ffffff/000000?text=Tema+Claro)  
-[Preview Dark Theme](https://via.placeholder.com/400x200/333333/ffffff?text=Tema+Escuro)
-
 Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sistema de temas claro e escuro que se adapta automaticamente as preferencias do usuario.
 
 ## Funcionalidades Principais
@@ -34,3 +31,20 @@ Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sist
 1. Clone o repositorio:
 ```bash
 git clone https://github.com/seu-usuario/buscador-cep.git
+```
+2. Acesse o diretório
+```bash
+cd search
+```
+3. Instalação de dependências
+```bash
+npm install
+# ou usando yarn
+yarn install
+```
+5. Inicialização do servidor
+```bash
+npm run dev
+# ou usando yarn
+yarn dev
+```
