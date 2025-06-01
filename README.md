@@ -8,7 +8,6 @@ Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sist
 - Imagens de fundo tematicas - Diferentes backgrounds para cada tema
 - Busca por CEP - Consulta completa de enderecos via API ViaCEP
 - Feedback visual - Indicadores de carregamento e tratamento de erros
-- Responsivo - Adaptavel a diferentes tamanhos de tela
 
 ## Tecnologias Utilizadas
 
