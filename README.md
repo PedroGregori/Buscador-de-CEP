@@ -1,37 +1,36 @@
-# 🔍 Buscador de CEP
+# Buscador de CEP com Alternancia de Temas
 
-![Preview Light Theme](https://via.placeholder.com/400x200/ffffff/000000?text=Tema+Claro)
-![Preview Dark Theme](https://via.placeholder.com/400x200/333333/ffffff?text=Tema+Escuro)
+[Preview Light Theme](https://via.placeholder.com/400x200/ffffff/000000?text=Tema+Claro)  
+[Preview Dark Theme](https://via.placeholder.com/400x200/333333/ffffff?text=Tema+Escuro)
 
-Uma aplicação React que busca informações de endereço a partir de CEPs, com sistema de temas claro e escuro que se adapta automaticamente às preferências do usuário.
+Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sistema de temas claro e escuro que se adapta automaticamente as preferencias do usuario.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
-- 🌗 **Temas dinâmicos** - Alterna automaticamente entre claro/escuro conforme configuração do sistema
-- 🏙️ **Imagens de fundo temáticas** - Diferentes backgrounds para cada tema
-- 🔎 **Busca por CEP** - Consulta completa de endereços via API ViaCEP
-- ⚡ **Feedback visual** - Indicadores de carregamento e tratamento de erros
-- 📱 **Responsivo** - Adaptável a diferentes tamanhos de tela
+- Temas dinamicos - Alterna automaticamente entre claro/escuro conforme configuracao do sistema
+- Imagens de fundo tematicas - Diferentes backgrounds para cada tema
+- Busca por CEP - Consulta completa de enderecos via API ViaCEP
+- Feedback visual - Indicadores de carregamento e tratamento de erros
+- Responsivo - Adaptavel a diferentes tamanhos de tela
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-| Tecnologia | Função |
+| Tecnologia | Funcao |
 |------------|--------|
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Biblioteca principal para construção da UI |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Estilização com módulos CSS |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Lógica da aplicação |
-| ![ViaCEP](https://img.shields.io/badge/ViaCEP-0078D4?style=for-the-badge) | API de consulta de CEPs |
+| React | Biblioteca principal para construcao da UI |
+| CSS3 | Estilizacao com modulos CSS |
+| JavaScript | Logica da aplicacao |
+| ViaCEP | API de consulta de CEPs |
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
-### Pré-requisitos
+### Pre-requisitos
 
 - Node.js (v14+)
 - npm (v6+) ou yarn
 
 ### Passo a Passo
 
-1. Clone o repositório:
+1. Clone o repositorio:
 ```bash
 git clone https://github.com/seu-usuario/buscador-cep.git
-cd buscador-cep
