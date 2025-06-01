@@ -65,7 +65,7 @@ body.dark .input-box {
 .search-button {
   height: 45px;
   padding: 10px 15px;
-  background: #007bff;
+  background: #1082b8;
   border: none;
   color: white;
   border-radius: 4px;
@@ -79,11 +79,12 @@ button:hover {
 }
 
 body.dark button {
-  background: #0056b3;
+  background: #0e6892;
 }
 
 body.dark button:hover {
   background: #007bff;
+  border: transparent;
 }
 
 /* Estilo da área de resultado */

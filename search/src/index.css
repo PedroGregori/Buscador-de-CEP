@@ -72,7 +72,7 @@ button:focus-visible {
   top: 20px;
   right: 20px;
   font-size: 1.5rem;
-  background: transparent;
+  background-color: #1082b8;
   border: none;
   cursor: pointer;
   z-index: 1000;
