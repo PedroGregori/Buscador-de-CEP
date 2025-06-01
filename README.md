@@ -30,7 +30,7 @@ Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sist
 
 1. Clone o repositorio:
 ```bash
-git clone https://github.com/seu-usuario/buscador-cep.git
+git clone https://github.com/PedroGregori/Buscador-de-CEP.git
 ```
 2. Acesse o diretório
 ```bash
