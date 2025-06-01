@@ -28,13 +28,9 @@ Uma aplicacao React que busca informacoes de endereco a partir de CEPs, com sist
 
 ### Passo a Passo
 
-1. Clone o repositorio:
+1. Clonagem do repositorio:
 ```bash
 git clone https://github.com/PedroGregori/Buscador-de-CEP.git
-```
-2. Acesse o diretório
-```bash
-cd search
 ```
 3. Instalação de dependências
 ```bash
